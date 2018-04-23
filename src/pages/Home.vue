@@ -1,16 +1,27 @@
 <template>
   <div>
-
+    <Cover/>
+    <Cards/>
+    <Banner/>
+    <Cards/>
+    <Banner/>
   </div>
 </template>
 
 <script>
+import Cover from '@/components/Cover'
+import Cards from '@/components/Cards'
+import Banner from '@/components/Banner'
+
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+    return {}
+  },
+  components: {
+    Cover,
+    Cards,
+    Banner
   }
 }
 </script>

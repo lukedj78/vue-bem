@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 // import store from './store'
 import * as filters from './filters' // global filters
+import './errorLog'// error log
+// import './permission' // permission control
 import i18n from './lang' // Internationalization
 
 // register global utility filters.
@@ -18,6 +20,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  i18n,
   components: { App },
   template: '<App/>'
 })

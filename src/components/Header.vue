@@ -1,22 +1,32 @@
 <template>
   <header class="header clearfix">
     <a href="index.html" class="header__logo">Logo</a>
-    <a href="" class="header__icon-bar">
+    <a href="" class="header__icon-bar" @click.prevent="isOpen">
       <span></span>
       <span></span>
       <span></span>
     </a>
-    <NavBar />
+    <NavBar :opened="opened"/>
   </header>
-
 </template>
 
 <script>
 import NavBar from '@/components/NavBar'
 export default {
   name: 'Header',
+  data () {
+    return {
+      opened: false
+    }
+  },
   components: {
     NavBar
+  },
+  methods: {
+    isOpen () {
+      this.opened = !this.opened
+      console.log(this.opened)
+    }
   }
 }
 </script>
@@ -28,7 +38,7 @@ header
 .header{background: #333}
 .header__logo{color:#fff; float:left;display: block;padding:20px;text-decoration: none;}
 .header__icon-bar{display: block;float: right;padding:20px;display: none;}
-.header__icon-bar span{display: block;height:3px; width: 30px;background: #fff; margin-bottom: 5px;}
+.header__icon-bar span{display: block;height:3px; width: 30px;background: #fff; margin-bottom: 5px;cursor: pointer;}
 
 /*-----------------------------
 nav

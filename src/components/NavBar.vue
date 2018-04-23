@@ -1,6 +1,6 @@
 <template>
   <nav class="nav">
-    <ul class="nav__menu animate">
+    <ul class="nav__menu animate" :class="{ 'is-open': opened}">
       <li class="nav__menu__item"><a href="index.html">Home</a></li>
       <li class="nav__menu__item"><a href="single.html">Single</a></li>
       <li class="nav__menu__item"><a href="page.html">Page</a></li>
@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  props: ['opened'],
   name: 'NavBar',
   data () {
     return {

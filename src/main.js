@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import store from './store'
+import store from './store'
 import * as filters from './filters' // global filters
 import './errorLog'// error log
 // import './permission' // permission control

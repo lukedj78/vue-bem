@@ -1,5 +1,6 @@
 export default {
   route: {
+    page: 'Page',
     dashboard: 'Dashboard',
     introduction: 'Introduction',
     documentation: 'Documentation',
@@ -50,6 +51,7 @@ export default {
     i18n: 'I18n'
   },
   navbar: {
+    page: 'Page',
     logOut: 'Log Out',
     dashboard: 'Dashboard',
     github: 'Github',

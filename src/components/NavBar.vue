@@ -3,7 +3,7 @@
     <ul class="nav__menu animate" :class="{ 'is-open': opened}">
       <li class="nav__menu__item"><router-link to="/">Home</router-link></li>
       <li class="nav__menu__item"><router-link to="/single">Single</router-link></li>
-      <li class="nav__menu__item"><router-link to="/page">Page</router-link></li>
+      <li class="nav__menu__item"><router-link to="/page">{{$t('navbar.page')}}</router-link></li>
     </ul>
   </nav>
 </template>

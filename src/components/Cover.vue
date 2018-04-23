@@ -24,7 +24,7 @@ export default {
     button: {
       type: String
     },
-    isSingle:{
+    isSingle: {
       type: Boolean
     }
   }

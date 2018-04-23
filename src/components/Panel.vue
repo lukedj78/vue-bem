@@ -39,6 +39,6 @@ Panel
   margin-top: -60px;
 }
 .panel__copy{max-width: 800px;margin: 0px auto;background: #fff;padding:20px 40px;position: relative;z-index: 1;}
-.panel__copy__meta{font-weight: bold;font-size: 16px;	}
+.panel__copy__meta{font-weight: bold;font-size: 16px;}
 .panel__copy__title{font-size: 32px;}
 </style>

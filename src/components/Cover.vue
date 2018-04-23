@@ -4,8 +4,8 @@
     <div class="cover__caption">
       <div class="cover__caption__copy">
         <h1>{{title}}</h1>
-        <h2 v-if="isSingle == true">{{subtitle}}</h2>
-        <a href="" class="button" v-if="isSingle == true"> {{button}}</a>
+        <h2 v-if="isSingle !== true">{{subtitle}}</h2>
+        <a href="" class="button" v-if="isSingle !== true"> {{button}}</a>
       </div>
     </div>
   </section>
@@ -14,7 +14,20 @@
 <script>
 export default {
   name: 'Cover',
-  props: ['title', 'subtitle', 'isSingle', 'button']
+  props: {
+    title: {
+      type: String
+    },
+    subtitle: {
+      type: String
+    },
+    button: {
+      type: String
+    },
+    isSingle:{
+      type: Boolean
+    }
+  }
 }
 </script>
 

@@ -37,6 +37,7 @@ header
 -----------------------------*/
 .header{background: #333}
 .header__logo{color:#fff; float:left;display: block;padding:20px;text-decoration: none;}
+.header__logo a:hover{color: #1af3a4;}
 .header__icon-bar{display: block;float: right;padding:20px;display: none;}
 .header__icon-bar span{display: block;height:3px; width: 30px;background: #fff; margin-bottom: 5px;cursor: pointer;}
 

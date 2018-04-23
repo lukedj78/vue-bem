@@ -1,8 +1,8 @@
 <template>
   <article class="panel">
     <div class="panel__copy">
-      <h2 class="panel__copy__title">Subtitle of the home page</h2>
-      <p class="panel__copy__meta"> 10.10.2016, in <a href="">News</a> by <a href="">Andrea</a></p>
+      <h2 class="panel__copy__title" v-show="title">{{title}}</h2>
+      <p class="panel__copy__meta" v-show="title"> {{date}}, in <a href="">{{categories}}</a> by <a href="">{{author}}</a></p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fuga quae aperiam eaque id, illum delectus repudiandae natus minus, ullam! Impedit excepturi quaerat delectus provident consectetur laboriosam deleniti at, temporibus.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fuga quae aperiam eaque id, illum delectus repudiandae natus minus, ullam! Impedit excepturi quaerat delectus provident consectetur laboriosam deleniti at, temporibus.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et fuga quae aperiam eaque id, illum delectus repudiandae natus minus, ullam! Impedit excepturi quaerat delectus provident consectetur laboriosam deleniti at, temporibus.</p>
@@ -13,6 +13,21 @@
 
 <script>
 export default {
+  name: 'Panel',
+  props: {
+    title: {
+      type: String
+    },
+    categories: {
+      type: String
+    },
+    author: {
+      type: String
+    },
+    date: {
+      type: String
+    }
+  }
 }
 </script>
 

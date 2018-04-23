@@ -1,11 +1,11 @@
 <template>
   <section class="banner clearfix">
-    <div class="banner__image"></div>
+    <div class="banner__image" :class="{ 'banner__image--rigth': isRigth}"></div>
     <div class="banner__copy">
       <div class="banner__copy__text">
-        <h3>Banner Title</h3>
-        <h4>Banner Subtitle</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas autem quam, explicabo pariatur sit nisi, adipisci saepe.</p>
+        <h3>{{title}}</h3>
+        <h4>{{subtitle}}</h4>
+        <p>{{text}}</p>
       </div>
     </div>
   </section>
@@ -13,6 +13,8 @@
 
 <script>
 export default {
+  name: 'Banner',
+  props: ['title', 'subtitle', 'isRigth', 'text']
 }
 </script>
 
@@ -21,13 +23,16 @@ export default {
 Banner
 -----------------------------*/
 .banner{background: #fff; height:50%;margin-top:40px}
-.banner__image{width:30%; float:left;height:100%;
+.banner__image{width:30%; float:left;height:100%;min-height: 290px;
   background-image: url("https://source.unsplash.com/category/nature/400x400");
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
   background-position: center center;
 }
+
+.banner__image--rigth {float: right;}
+
 .banner__copy{width:70%; float:left;height:100%;display: table;}
 .banner__copy__text{display: table-cell; vertical-align: middle;padding:30px;}
 

@@ -74,6 +74,9 @@ Banner
 	-moz-background-size: cover;
 	background-position: center center;
 }
+.banner__image--rigth {float: right;}
+.banner__image--left {float: left;}
+
 .banner__copy{width:70%; float:left;height:100%;display: table;}
 .banner__copy__text{display: table-cell; vertical-align: middle;padding:30px;}
 

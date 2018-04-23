@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Cover/>
+    <Cover title="Primary message of the Home" subtitle="Subtitle of the home page" button="Call to action" is-single="false"/>
     <Cards/>
     <Banner/>
     <Cards/>
@@ -16,7 +16,8 @@ import Banner from '@/components/Banner'
 export default {
   name: 'Home',
   data () {
-    return {}
+    return {
+    }
   },
   components: {
     Cover,

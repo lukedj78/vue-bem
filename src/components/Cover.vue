@@ -1,11 +1,11 @@
 <template>
-  <section class="cover">
+  <section class="cover" :class="{ 'cover--single': isSingle}">
     <div class="cover__filter"></div>
     <div class="cover__caption">
       <div class="cover__caption__copy">
-        <h1>Primary message of the Home </h1>
-        <h2>Subtitle of the home page</h2>
-        <a href="" class="button"> Call to action</a>
+        <h1>{{title}}</h1>
+        <h2 v-if="isSingle == true">{{subtitle}}</h2>
+        <a href="" class="button" v-if="isSingle == true"> {{button}}</a>
       </div>
     </div>
   </section>
@@ -13,6 +13,8 @@
 
 <script>
 export default {
+  name: 'Cover',
+  props: ['title', 'subtitle', 'isSingle', 'button']
 }
 </script>
 

@@ -1,9 +1,9 @@
 <template>
   <nav class="nav">
     <ul class="nav__menu animate" :class="{ 'is-open': opened}">
-      <li class="nav__menu__item"><a href="index.html">Home</a></li>
-      <li class="nav__menu__item"><a href="single.html">Single</a></li>
-      <li class="nav__menu__item"><a href="page.html">Page</a></li>
+      <li class="nav__menu__item"><router-link to="/">Home</router-link></li>
+      <li class="nav__menu__item"><router-link to="/single">Single</router-link></li>
+      <li class="nav__menu__item"><router-link to="/page">Page</router-link></li>
     </ul>
   </nav>
 </template>
@@ -16,17 +16,17 @@ export default {
     return {
       menu: [{
         title: 'Home',
-        link: '',
+        link: '/',
         icon: ''
       },
       {
         title: 'Single',
-        link: '',
+        link: '/single',
         icon: ''
       },
       {
         title: 'Page',
-        link: '',
+        link: '/page',
         icon: ''
       }]
     }
@@ -57,6 +57,6 @@ Smartphone
 @media (max-width: 767px){
   .nav__menu{width:100%;height:0px; overflow: hidden;}
   .nav__menu__item{display: block;}
-  .is-open{height:300px; overflow: auto;}
+  .is-open{height:100%; overflow: auto;}
 }
 </style>

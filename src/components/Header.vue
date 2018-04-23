@@ -1,6 +1,6 @@
 <template>
   <header class="header clearfix">
-    <a href="index.html" class="header__logo">Logo</a>
+    <router-link to="/" class="header__logo">Logo</router-link>
     <a href="" class="header__icon-bar" @click.prevent="isOpen">
       <span></span>
       <span></span>

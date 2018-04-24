@@ -5,10 +5,11 @@
         <input type="text" name="username" id="username" v-model="username">
       </div>
       <div class="login__capition__input">
-        <input type="password" name="secret" id="secret" v-model="secret">
+        <input :type="passwordType" name="secret" id="secret" v-model="secret">
       </div>
       <div class="login__capition__input">
-        <button type="button" name="button"@click.native.prevent="handleLogin">{{$t('login.logIn')}}</button>
+        <button type="button" name="button"@click="handleLogin">{{$t('login.logIn')}}</button>
+        <button class="show-pwd" @click="showPwd">Show/Hide</button>
       </div>
     </div>
   </div>
@@ -18,12 +19,20 @@ export default {
   data () {
     return {
       username: '',
-      secret: ''
+      secret: '',
+      passwordType: 'password'
     }
   },
   methods: {
+    showPwd() {
+      if (this.passwordType === 'password') {
+        this.passwordType = 'text'
+      } else {
+        this.passwordType = 'password'
+      }
+    },
     handleLogin () {
-      console.log()
+      console.log(this.username, this.secret)
       // this.$refs.loginForm.validate(valid => {
       //   if (valid) {
       //     this.loading = true

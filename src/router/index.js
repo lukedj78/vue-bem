@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import Page from '@/pages/Page'
 import Single from '@/pages/Single'
 import Exp from '@/pages/Exp'
+import Login from '@/pages/Login'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
       path: '/experiences',
       name: 'Exp',
       component: Exp
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     }
   ]
 })

@@ -14,5 +14,5 @@ export default {
 /*-----------------------------
 Footer
 -----------------------------*/
-.footer{background: #333; padding:30px;color:#fff; margin-top: 0px}
+.footer{background: #333; padding:30px;color:#fff; margin-top: 0px;position:absolute;right: 0;left: 0;bottom: 0;}
 </style>

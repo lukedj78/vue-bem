@@ -52,6 +52,7 @@ export default {
   },
   navbar: {
     page: 'Pagina',
+    experiences:'Esperienze',
     logOut: 'Log Out',
     dashboard: 'Dashboard',
     github: 'Github',

@@ -1,0 +1,2932 @@
+[
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "546e170b7fdf87ae1df677e1",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Il viaggio della speranza",
+            "shortDesc": "Quale è il prezzo da pagare per un po’ di libertà? Lo sanno tutti quegli immigrati che sfidarono le intemperie dell’oceano in nome della speranza.",
+            "longDesc": "Quanto lontano ti spingeresti per una vita migliore, per trovare l’occasione che aspetti da sempre e crearti un futuro che ti regali momenti di felicità insieme ai tuoi cari? Scapperesti dalla tua terra in cerca dell’ignoto, spinto solo dalla speranza che lontano si nasconde quella possibilità che prende il nome di sogno americano? Se anche tu saresti disposto a tanto, allora sarà semplice immedesimarti nei panni di quei milioni di immigranti che da tutto il mondo si imbarcarono nel viaggio della speranza, direzione Ellis Island.\n\nQuesta piccola isola, teatro di abbracci e abbandoni, era la più grande stazione di immigrati del paese, tutti passavano di qui prima di essere smistati in diverse città americane. Ti imbatterai in un percorso guidato, lungo secoli, fino ad arrivare nel grande atrio vuoto, adornato solo con qualche foto in bianco e in nero. Se chiudi gli occhi ti sembrerà di ritornarne anni indietro, dove oggi non c’è nulla, prima c'erano file di panche che accoglievano i viaggiatori in attesa di farsi convalidare il visto per entrare in America. \n\nChissà quanta gente è passata di lì, magari anche un tuo lontano antenato e se sei curioso potresti rileggere nelle deposizioni degli archivi storici il nome di qualche tuo bisnonno che ha tentato questo viaggio di fortuna. Nonostante il silenzio, ti sembrerà di sentire quelle voci che urlano di gioia o alcune di dolore, per non essere risultate idonee a vivere il loro sogno. Da qui: isola di speranza, isola di lacrime.",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 4
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 0
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 0
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "history",
+                    "value": 1
+                  },
+                  {
+                    "name": "cities",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York, NY, USA",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.03955959999996,40.6994721]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.6994721,
+                      "lng": -74.03955959999996,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.03955959999996,40.6994721]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.6994721,
+                      "lng": -74.03955959999996,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b69ee4b0be1e4c207c18"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b69ee4b0be1e4c207c18",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New Jersey, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd824",
+                    "citta": "Jersey City, New Jersey, Stati Uniti",
+                    "cittaCode": "56127d3b1bb47d32978fecc2",
+                    "indirizzo": "Ellis Island Bridge, Jersey City",
+                    "indirizzoCode": "5612814f1bb495651fa562b9",
+                    "location": "Stati Uniti, New Jersey, Jersey City"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "images": [
+              {
+                "uri": "5447b872e4b0bda6d785b016",
+                "shortDesc": "0"
+              },
+              {
+                "uri": "5447b877e4b0bda6d785b017",
+                "shortDesc": "1"
+              }
+            ],
+            "author": {
+              "accountId": "maria.scottodapollonia@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "5447b872e4b0bda6d785b016",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New Jersey",
+                  "code": "NJ"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "Hudson County",
+                  "code": "Hudson County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "Jersey City",
+                  "code": "Jersey City"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Ellis Island Bridge",
+                  "extendedAddress": "Ellis Island Bridge, Jersey City, NJ, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "53bd16f1671029428184ca62",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "The Mother of Exiles",
+            "shortDesc": "Guardare un simbolo con occhi diversi",
+            "longDesc": "Pochi luoghi sono capaci, come la Statua di Libertà, di simboleggiare non solo lo spirito di una città, New York, e di un popolo, quello americano, ma anche di costituire un'icona che sintetizza la cultura moderna nella sua globalità. L'imponente scultura metallica sembra non avvertire la propria veneranda età, e dal 1886 continua ad ergersi maestosa sulla baia dell'Hudson, impugnando la fiaccola dorata che manda il bagliore della libertà su tutti i mari, per rischiarare l'umanità intera. Forse penserai che, durante la tua vacanza nella Grande Mela, una visita a questo monumento sia qualcosa di tutto sommato scontato, proprio perché obbligata: eppure, se vorrai rendere ricca di suggestioni un'escursione altrimenti routinaria e banale, non ti resta che fare un gesto semplicissimo, cioè cambiare il tuo sguardo. In che senso? Provando ad ammirare la celebre opera da un punto di vista differente. Non ci sarà bisogno di chissà quali sforzi della fantasia, ma ti basterà leggere le parole incise sulla stele di bronzo del piedistallo. \"The New Colossus\", un sonetto di Emma Lazzarus: lungi da esaltazioni trionfalistica, qui la statua è osservata con gli occhi, pieni di incognite e dubbi, dei migranti che giungevano prostrati dalle traversate atlantiche. Come d'incanto sarai di fronte alla \"Mother of Exiles\", la madre degli esiliati che dava rifugio ai reietti e ai fuggitivi delle coste un tempo gloriose: anche tu proverai, per la prima volta, cosa voleva dire trovare l'America!",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 3
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 3
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 2
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "history",
+                    "value": 1
+                  },
+                  {
+                    "name": "art",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.04513800000001,40.689758]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.689758,
+                      "lng": -74.04513800000001,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "value": {
+                    "point": {
+                      "lat": 40.689758,
+                      "lng": -74.04513800000001,
+                      "alidaysGeographyId": "5669b79ce4b0be1e4c20931e"
+                    },
+                    "path": {},
+                    "area": {}
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b79ce4b0be1e4c20931e",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "Liberty Island - Ellis Island, 1, New York",
+                    "indirizzoCode": "561283571bb495651fa576cb",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "rank": 0,
+            "rate": 0,
+            "images": [
+              {
+                "uri": "5398291ae4b0312faed8043c",
+                "shortDesc": "0"
+              },
+              {
+                "uri": "554cdb4ce4b01122010612c9",
+                "shortDesc": "1"
+              }
+            ],
+            "author": {
+              "accountId": "alessandro.difalco@alidays.it",
+              "autocomplete": "56c717fee4b02e91fba66f56",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "5398291ae4b0312faed8043c",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Liberty Island - Ellis Island",
+                  "number": "1",
+                  "zip": "10004",
+                  "extendedAddress": "1 Liberty Island - Ellis Island, New York, NY 10004, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "54bccc1e43d7b8734127d085",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "9/11/2001",
+            "shortDesc": "Silenzio e raccoglimento al Memoriale di Ground Zero",
+            "longDesc": "Ognuno di noi ha impresse negli occhi le immagini spaventose dell'attentato terroristico alle Torri Gemelle di New York. Dopo l'11 settembre la storia, e i nostri destini individuali, sono cambiati. Le parole risultano ridondati, sfacciatamente consolatorie, di fronte allo sconcerto, al dolore, all'angoscia, al loro urlo selvaggio, senza forma, che sta prima di ogni linguaggio.\nQuando verrai a New York difficilmente riuscirai a tenerti lontano da Ground Zero, ferita non rimarginabile. Il cratere lasciato dal crollo dei grattacieli è una voragine che nessun riporto potrà mai colmare. \nQui potrai visitare il Memoriale di quel giorno infausto. Non ci sono statue o installazioni monumentali. Solo la sottrazione, lo svuotamento, massima testimonianza di rispetto. Le fondamenta delle torri sono ora occupate da una grande fontana. L'acqua che scende nel baratro sciacqua e pulisce il grande trauma, di continuo, senza poterlo né volerlo estinguere. Disseta i nomi dei caduti - nudissimi nomi incisi nel metallo - posando sulle loro labbra rimaste aperte, per sempre, nell'ultimo stupore, il sale della terra e le lacrime del cielo. Che qui si riuniscono, nel getto silenzioso.\nRimarrai assorto di fronte alla tragedia e alla follia, che non conosce ragioni e non merita risposte. Lo schianto vibra ancora nell'aria, ne è il sottofondo assordante. Il Museo ti fornirà la cronaca di quei drammatici eventi, le loro implicazioni epocali. \nNon dimenticherai mai il buco nero della Grande Mela.",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 2
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 0
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 3
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 0
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "history",
+                    "value": 1
+                  },
+                  {
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "name": "art",
+                    "value": 1
+                  },
+                  {
+                    "name": "cities",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York, Stati Uniti",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.00961257141114,40.711986217199595]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.711986217199595,
+                      "lng": -74.00961257141114,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.00961257141114,40.711986217199595]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.711986217199595,
+                      "lng": -74.00961257141114,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b7c1e4b0be1e4c209633"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b7c1e4b0be1e4c209633",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "Vesey Street, 20, New York",
+                    "indirizzoCode": "56127ff31bb495651fa5557f",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                },
+                "special": "Prenotare su Internet l'accesso gratis al  Memorial"
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "videos": [
+              {
+                "uri": "http://www.youtube.com/embed/VlzgBMCypCI?showinfo=0&controls=0",
+                "shortDesc": "0"
+              }
+            ],
+            "images": [
+              {
+                "uri": "53ac0cdae4b0f16d39804a72",
+                "shortDesc": "0"
+              },
+              {
+                "uri": "54eb3b51e4b01122010604ae",
+                "shortDesc": "1"
+              },
+              {
+                "uri": "54eb3b53e4b01122010604af",
+                "shortDesc": "2"
+              },
+              {
+                "uri": "54eb3b54e4b01122010604b1",
+                "shortDesc": "3"
+              },
+              {
+                "uri": "54eb3b5ae4b01122010604b2",
+                "shortDesc": "4"
+              }
+            ],
+            "author": {
+              "accountId": "giuseppe.gerevini@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "53ac0cdae4b0f16d39804a72",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Vesey Street",
+                  "number": "20",
+                  "zip": "10007",
+                  "extendedAddress": "20 Vesey Street, New York, NY 10007, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "53bd16f7671029428184cd05",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Il parco sulla vecchia linea sopraelevata",
+            "shortDesc": "High Line Park, gioiello di architettura e design, ti farà esplorare New York da una posizione insolita e stimolante",
+            "longDesc": "Che New York sia la capitale mondiale della moda e delle novità, che nella sua fucina nascano tutte le invenzioni più bizzarre e destinate a fare tendenza, è cosa risaputa. \n\nQuando però farai una passeggiata nella Lower West Side di Manhattan potresti non credere ai tuoi occhi: qui infatti ti troverai di fronte a un'idea geniale concretizzata in una creazione architettonica e urbanistica davvero unica e avveniristica. \n\nLa High Line è una città - giardino sopraelevata, un lungo corridoio verde, in cui si alternano caffé e negozietti, che corre sopra le strade come un nastro pieno di piante e aiuole: quella che ora è una splendida oasi pedonale un tempo era una linea ferroviaria sopraelevata, rinnovata da un team di architetti e paesaggisti di fama internazionale.\n\nUna volta salito sulla High Line ti sembrerà di trovarti in una di quelle metropoli del futuro descritte nei libri di fantascienza. Sarà un'esperienza rilassante e rigenerante passeggiare lungo il percorso concepito e realizzato con forme raffinatissime, il pavimento in assi di legno che s'apre in piazzette e slarghi dove sono collocate installazioni artistiche e cespugli fioriti, o sedersi su una panchina o una sdraio, ovviamente anch'esse dalle linee d'autore. Numerosi eventi e spettacoli fanno di questo parco un polo culturale en plen air...\n\nNon sarà faticoso percorrere i 5 chilometri della splendida Promenade plantée: ogni passo sarà un piacere, e mai New York ti sembrerà così a misura d'uomo!",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 3
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 0
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 3
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 2
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "name": "art",
+                    "value": 1
+                  },
+                  {
+                    "name": "cities",
+                    "value": 1
+                  },
+                  {
+                    "name": "entertainment",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York, Stati Uniti",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.0047649,40.7479925]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.7479925,
+                      "lng": -74.0047649,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.0047649,40.7479925]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.7479925,
+                      "lng": -74.0047649,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b655e4b0be1e4c20755e"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b655e4b0be1e4c20755e",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "West 23rd Street, 517-519, New York",
+                    "indirizzoCode": "56127ff21bb495651fa55579",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "rank": 0,
+            "rate": 0,
+            "videos": [
+              {
+                "uri": "http://www.youtube.com/embed/_W2Yq1zzxAc?showinfo=0&controls=0",
+                "shortDesc": "0"
+              }
+            ],
+            "images": [
+              {
+                "uri": "53aac4fbe4b0f16d39804a53",
+                "shortDesc": "0"
+              },
+              {
+                "uri": "53aac4fce4b0f16d39804a54",
+                "shortDesc": "1"
+              },
+              {
+                "uri": "53aac4fce4b0f16d39804a55",
+                "shortDesc": "2"
+              },
+              {
+                "uri": "53aac4fce4b0f16d39804a56",
+                "shortDesc": "3"
+              }
+            ],
+            "author": {
+              "accountId": "alessandro.difalco@alidays.it",
+              "autocomplete": "56c717fee4b02e91fba66f56",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "53aac4fbe4b0f16d39804a53",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "West 23rd Street",
+                  "number": "517-519",
+                  "zip": "10011",
+                  "extendedAddress": "517-519 West 23rd Street, New York, NY 10011, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "56c1fa67e4b035f76fe49024",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Il primo caffè espresso d'America",
+            "shortDesc": "Se vorrai sorseggiare il miglior caffè di New York in compagnia di un dolce irresistibile, non avrai dubbi: dal 1892 c'è Ferrara a Little Italy!",
+            "longDesc": "La capacità indiscutibile degli Italiani è di riuscire a mettere radici ovunque vadano, di adattarsi e mimetizzarsi a climi, ambienti, culture diverse, mantenendo però la loro luce natia, il loro spirito creativo, l'innata capacità di emanare un lirismo genuino, ingenuo, naturale.\r\nCosì non farai fatica a capire dove a Manhattan inizia Little Italy. Certo, le vie con le case basse in mattoncini, le scale d'emergenza metalliche che corrono lungo le facciate, i negozietti con i nomi ancora chiaramente italiani, non sono più quelle dei grandi classici letterari e cinematografici che raccontavano la malavita imperante in quei quartieri popolari e vocianti. Ora vi stanno sorgendo loft e atelier d'arte. \r\nUn angolo, però, resiste intatto. D'altronde qui si beve quello che è riconosciuto in modo pressoché unanime come il miglior caffè di Manhattan, nonché il primo bar in America dove sia stato introdotto l'espresso. Si tratta del Ferrara Bakery, aperto nel 1892 dall'immigrato lucano i cui discendenti gestiscono ancora l'esercizio. Il patriarca Antonio non imparò mai l'inglese e conservò sempre l'austerità accigliata della sua terra di roccia e pascoli. Appena entrerai nel locale respirerai un'aria di casa, eppure inconfondibilmente newyorkese. Il banco pasticceria ti abbaglierà per i suoi colori vivaci e ricchi. L'atmosfera è vintage, con specchi, ottoni, radica. Quell'avventore appoggiato al banco di spalle potrebbe essere qualche gangster in cerca di un buon caffè!",
+            "edit": "validated",
+            "validGeography": "vvvvd",
+            "published": "online",
+            "promoHome": false,
+            "promoExplore": false,
+            "promoRelaxingYourself": false,
+            "promoAdmiringNaturalLandscapes": false,
+            "promoDiscoveringAuthenticBehaviors": false,
+            "promoKnowingModernCultures": false,
+            "promoHavingFun": false,
+            "promoDoingAdventures": false,
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 4
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 2
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 0
+                  },
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "cities",
+                    "value": 1
+                  },
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "food",
+                    "value": 1
+                  },
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "history",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.99222789999999,40.717664]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.717664,
+                      "lng": -73.99222789999999,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "value": {
+                    "point": {
+                      "lat": 40.717664,
+                      "lng": -73.99222789999999,
+                      "alidaysGeographyId": "56c1fac6e4b035f76fe4906d"
+                    },
+                    "path": {},
+                    "area": {},
+                    "pairPoint": {}
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "56c1fac6e4b035f76fe4906d",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              }
+            },
+            "images": [
+              {
+                "uri": "56c1fb28e4b035f76fe4909b"
+              },
+              {
+                "uri": "56c1fb3fe4b035f76fe490ae"
+              },
+              {
+                "uri": "56c1fb5ae4b035f76fe490c0"
+              }
+            ],
+            "author": {
+              "accountId": "ae.a.difalco@alidays.it"
+            },
+            "lastModifier": {
+              "accountId": "ae.a.difalco@alidays.it"
+            },
+            "defaultImage": {
+              "uri": "56c1fb5ae4b035f76fe490c0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "New York"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Grand Street",
+                  "number": "285",
+                  "zip": "10002",
+                  "extendedAddress": "285 Grand St, New York, NY 10002, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "5704e23fe4b0e6824314aa82",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Un'eleganza underground",
+            "shortDesc": "SoHo, l'anima raffinata ed underground di una New York di mille ed incantevoli volti.",
+            "longDesc": "Un altro frammento di incredibile incanto che colora l'immensa città di New York. Avrai già sentito parlare di Soho, il  quartiere un po' alternative chic e controcorrente. Non farti solo incuriosire dai racconti, fagli visita e scopri cosa nasconde tra vie trafficate e boutique di grido. Il suo aspetto austero potrebbe metterti quasi a disagio, tutto sarà tremendamente ordinato, preciso, solo un vivace via vai di persone scombussolerà la perfezione di quelle atmosfere. Ma piano piano, con dolcezza si mostrerà a te, spogliandosi del suo apparente aspetto per lasciarti conoscere una parte del suo cuore, quella fatta di ghisa del Cast Iron District. Un'area vestita di vecchi palazzi un tempo grigi casermoni industriali, ora divenuti autentici capolavori di architettura. Tra la Broadway e la Greene street si alterneranno uno dietro l'altro, come una catena di capolavori in mostra agli occhi di chi, come te, finirà per perdersi nei decori e nei dettagli delle raffinate facciate. Ecco che finalmente avrai conosciuto anche questo spicchio d'anima newyorkese,  elegante e underground.",
+            "edit": "validated",
+            "validGeography": "vvvvd",
+            "published": "online",
+            "promoHome": false,
+            "promoExplore": false,
+            "promoRelaxingYourself": false,
+            "promoAdmiringNaturalLandscapes": false,
+            "promoDiscoveringAuthenticBehaviors": false,
+            "promoKnowingModernCultures": false,
+            "promoHavingFun": false,
+            "promoDoingAdventures": false,
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 4
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 2
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 0
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 0
+                  },
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "cities",
+                    "value": 1
+                  },
+                  {
+                    "subcategory": [
+                      ""
+                    ],
+                    "name": "history",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-74.000112971936,40.7218373943501]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.7218373943501,
+                      "lng": -74.000112971936,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "value": {
+                    "point": {
+                      "lat": 40.7218373943501,
+                      "lng": -74.000112971936,
+                      "alidaysGeographyId": "5704e252e4b0e6824314aa95"
+                    },
+                    "path": {},
+                    "area": {},
+                    "pairPoint": {}
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5704e252e4b0e6824314aa95",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "howLong": {
+                "value": "Tra 2h e 4h"
+              },
+              "howMuch": {
+                "value": {}
+              }
+            },
+            "images": [
+              {
+                "uri": "5704e2eee4b0e6824314aac7"
+              }
+            ],
+            "author": {
+              "accountId": "ae.e.lanzanova@alidays.it"
+            },
+            "lastModifier": {},
+            "defaultImage": {
+              "uri": "5704e2eee4b0e6824314aac7"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "New York"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Broadway",
+                  "number": "487",
+                  "zip": "10013",
+                  "extendedAddress": "487 Broadway, New York, NY 10013, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "54afac87abdf8e3d30bd53f2",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Il cuore nero di New York",
+            "shortDesc": "Scopri le affascinanti vie del quartiere di Harlem, intrise delle tradizioni dell'importante comunità afroamericana.",
+            "longDesc": "Il fascino culturale della città di New York verte in gran parte sulla comunità afroamericana, capace nel tempo di integrarsi perfettamente in questa immensa metropoli, fino a rappresentarne uno degli aspetti più tipici. \n\nEcco perché per te una visita alla Grande Mela non può prescindere da una semplice ma imperdibile passeggiata tra le vie del quartiere di Harlem. \n\nQua potrai confrontarti con una tradizione che affonda le sue radici addirittura nell'800, e scoprire i tesori di un territorio che i newyorchesi neri hanno negli anni plasmato grazie alle loro usanze, la loro arte e tanto altro. \n\nLasciati guidare dai tanti scorci che, uno dopo l'altro, ti lasceranno a bocca aperta. \n\nTi incamminerai sulla famosa 125th Street, dove potrai ammirare il fantastico Apollo Theater, luogo magico dove l'espressione artistica degli afroamericani tocca costantemente gli apici con spettacoli meravigliosi. \n\nTi imbatterai in una serie di splendide chiese, tra cui la cattedrale St. John the Devine, alcune delle quali ospitano ogni domenica suggestive messe gospel, momenti in cui fede, allegria e tradizione si mischiano perfettamente. \n\nPasseggia per gli affascinanti viali alberati e immortala momenti autentici, come una partita a uno dei tanti campetti da basket di strada dove ogni giorno a tutte le ore ragazzi, ma anche adulti, si sfidano nella disciplina regina degli Stati Uniti. \n\nFinalmente, sentirai battere anche tu il cuore nero di New York.",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 4
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 0
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 1
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "history",
+                    "value": 1
+                  },
+                  {
+                    "name": "food",
+                    "value": 1
+                  },
+                  {
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "name": "cities",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "Harlem, New York",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.9464769,40.8115504]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.8115504,
+                      "lng": -73.9464769,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.9464769,40.8115504]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.8115504,
+                      "lng": -73.9464769,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b81ae4b0be1e4c209d6d"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b81ae4b0be1e4c209d6d",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "West 129th Street, 212, New York",
+                    "indirizzoCode": "5612819e1bb495651fa565bd",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "images": [
+              {
+                "uri": "54980a4de4b0e2ce327d2a40",
+                "shortDesc": "0"
+              }
+            ],
+            "author": {
+              "accountId": "alessandro.bai@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "54980a4de4b0e2ce327d2a40",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "West 129th Street",
+                  "number": "212",
+                  "zip": "10027",
+                  "extendedAddress": "212 West 129th Street, New York, NY 10027, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "53bd16f8671029428184cd80",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Tutta la civiltà in un museo",
+            "shortDesc": "Al Metropolitan Museum of Art di New York scoprirai, in una sola giornata, l'intera storia dell'umanità",
+            "longDesc": "190000 metri quadri corrispondono a un edificio, certo molto grosso, con numerose ali, padiglioni, chiostri. Non tutti i palazzi di tali dimensioni, però, contengono migliaia di anni di storia, di diverse realtà geografiche, epoche artistiche, temperie culturali e politiche. A meno che non si tratti del Metropolitan Museum of Art di New York. \nMolto più di una macchina del tempo. Un percorso organizzato e concepito per attraversare l'intera civiltà umana, nella globalità di sue espressioni e testimonianze, dalla selce scheggiata dell'uomo paleolitico al mondo contemporaneo, in tutti i suoi aspetti e ambiti, dalla nascita alla morte, dalla festa al lavoro, dalla preghiera alla guerra, dalla sopravvivenza materiale agli episodi più raffinati della produzione artistica mondiale. \nForse non riuscirai, nell'arco di una sola visita, a soffermarti sugli oltre 2000000 di pezzi della collezione museale. Sarai trasportato lontano, ad ogni sala, da climi, culti, regni, volti, gesti. Il bello ti apparirà in tutta la mutevole e variegata foggia con cui è stato inteso nella storia. Le sabbie egizie e gli altopiani iranici, la grazia greca e il vigore romano, la perizia orientale e la sensualità maya, e ancora la spiritualità medievale e i colori, così carnali e divini, del rinascimento italiano, passando poi per i capolavori del barocco sino alle rotture radicali dell'arte del 900.\nDal Metropolitan uscirai con qualche millennio in più sulle spalle e un'esperienza tutta rivolta al futuro!",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 3
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 3
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 3
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "history",
+                    "value": 1
+                  },
+                  {
+                    "name": "architectures",
+                    "value": 1
+                  },
+                  {
+                    "name": "art",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York City, Stati Uniti d'America",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.96353479999999,40.7791865]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.7791865,
+                      "lng": -73.96353479999999,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.96353479999999,40.7791865]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.7791865,
+                      "lng": -73.96353479999999,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b65ce4b0be1e4c20761d"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b65ce4b0be1e4c20761d",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "5th Avenue, 1000, New York",
+                    "indirizzoCode": "561280071bb495651fa55645",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "6-12"
+              },
+              "howMuch": {}
+            },
+            "rank": 0,
+            "rate": 0,
+            "videos": [
+              {
+                "uri": "http://www.youtube.com/embed/n1TDvMVJcho?showinfo=0&controls=0",
+                "shortDesc": "0"
+              }
+            ],
+            "images": [
+              {
+                "uri": "53b6ac94e4b04d2238224daf",
+                "shortDesc": "1"
+              },
+              {
+                "uri": "53b6ac94e4b04d2238224dae",
+                "shortDesc": "0"
+              }
+            ],
+            "author": {
+              "accountId": "giuseppe.gerevini@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "53b6ac94e4b04d2238224dae",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "5th Avenue",
+                  "number": "1000",
+                  "zip": "10028",
+                  "extendedAddress": "1000 5th Avenue, New York, NY 10028, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "546e17557fdf87ae1df6786d",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "\"The Street\"",
+            "shortDesc": "Che lo spettacolo abbia inizio...",
+            "longDesc": "Se ti sposti dalla frizzante Times Square verso le strade che si diramano ai lati della piazza, noterai che gli edifici diventano teatri, le persone si trasformano in personaggi di fantasia che indossano vestiti di scena e con gli occhi che riflettono le luci del palcoscenico, ti inviteranno a prendere parte ad uno spettacolo di Broadway, quella vera, nel \"Theater District\" di New York.\n\nE' proprio qui che si concentra la maggior parte dei teatri di tutta Manhattan; forse le luci, le strade, tutta la gente del mondo che passa di qui ispira gli artisti e non puoi far a meno di sognare, immaginare e condividere il genio creativo di un autore che mette nero su bianco il suo mondo di fantasia. Recitare è una filosofia di vita tra queste strade, perché ti lascia sognare e ti invita a varcare la soglia della realtà semplicemente osservando le storie che si snodano su un palcoscenico, mettendo in scena uno spettacolo a cui assistono persone provenienti da ogni parte del pianeta.\n\n\"The Street\", come la chiamano oggi gli americani, anche se sta ad indicare l`intero quartiere dei teatri, non è solo un luogo dove fioccano copioni, ma si scrivono anche canzoni, si girano corti e programmi televisivi in piccoli studio di registrazione. La vita assume un carattere leggero, dividendosi tra teatri e ristoranti sofisticati. Una volta a tavola ricorda di guardare sempre l`orologio, non dimenticare che dopo cena uno spettacolo ti aspetta. Non vorrai mica fare tardi alla tua prima di Broadway?",
+            "edit": "validated",
+            "validGeography": "vvvvv",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 0
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 3
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 3
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "cities",
+                    "value": 1
+                  },
+                  {
+                    "name": "entertainment",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York City, NY, USA",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.98447220000003,40.759011]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.759011,
+                      "lng": -73.98447220000003,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"point\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.98447220000003,40.759011]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.759011,
+                      "lng": -73.98447220000003,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b808e4b0be1e4c209c01"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b808e4b0be1e4c209c01",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "New York, New York, Stati Uniti",
+                    "cittaCode": "56127beb1bb47d32978fdfde",
+                    "indirizzo": "Broadway, 1568A, New York",
+                    "indirizzoCode": "561281691bb495651fa563af",
+                    "location": "Stati Uniti, New York, New York"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": []
+                },
+                "unrecommended": {
+                  "month": []
+                },
+                "neutral": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "1-3"
+              },
+              "howMuch": {}
+            },
+            "images": [
+              {
+                "uri": "546b0cb1e4b086b4d49589c5",
+                "shortDesc": "0"
+              }
+            ],
+            "author": {
+              "accountId": "maria.scottodapollonia@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "defaultImage": {
+              "uri": "546b0cb1e4b086b4d49589c5",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "New York County",
+                  "code": "New York County"
+                },
+                "level3": {
+                  "level": "level3",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "Broadway",
+                  "number": "1568A",
+                  "zip": "10036",
+                  "extendedAddress": "1568A Broadway, New York, NY 10036, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "success": true,
+    "data": [
+      {
+        "type": "experience",
+        "value": {
+          "experience": {
+            "_id": "546e17617fdf87ae1df67885",
+            "type": "experience",
+            "language": "it_IT",
+            "title": "Fino all'ultimo inning",
+            "shortDesc": "Lasciati trasportare dall'atmosfera coinvolgente e di festa di una partita dei New York Yankee nel loro stadio nel Bronx.",
+            "longDesc": "Sei a New york e non vuoi perderti nessuna esperienza che ti faccia sentire per qualche ora un vero abitante della città. Non potrai di certo mancare il vero rituale della cultura della Grande Mela, una grande festa più che un avvenimento sportivo, dal quale uscirai con un sorriso stampato in faccia.\n\nUna partita della squadra di casa allo Yankee Stadium, sarà un'esperienza che ti porterai per sempre nel cuore.\nAppena arriverai davanti all'impianto sarai subito contagiato dall'allegria. Intere famiglie che vengono in massa ad assistere alla partita, tantissime persone vestite in modo pittoresco, veri tifosi con le maglie dei giocatori e poi tu!\n\nUna volta che ti sarai seduto al tuo posto, inizierà lo spettacolo, non tanto sportivo, quasi carnevalesco. Canzoni da cantare al karaoke, cori da intonare all'unisono e maxi schermi che indiscreti inquadrano spettatori festanti. \n\nPrima dell'inizio della partita sarà doveroso l'inno americano dove tutti, compreso tu, parteciperanno con passione. Commosso nell'animo, non ti tirerai indietro anche a questa solenne tradizione.\n\nE la partita? C'è, ma non sarà sicuramente quella a farti trascorrere uno dei pomeriggi più divertenti di sempre! Sarà per te un'esperienza per capire come gli americani riescano a sempre a trasformare semplici occasioni in grandiosi eventi.\n\nNon ti resta che goderti questa partita fino all'ultimo inning!",
+            "edit": "validated",
+            "validGeography": "vvvvd",
+            "published": "online",
+            "ws": {
+              "why": {
+                "category": [
+                  {
+                    "name": "relaxingyourself",
+                    "value": 0
+                  },
+                  {
+                    "name": "admiringnaturallandscapes",
+                    "value": 0
+                  },
+                  {
+                    "name": "discoveringauthenticbehaviors",
+                    "value": 4
+                  },
+                  {
+                    "name": "knowingmoderncultures",
+                    "value": 0
+                  },
+                  {
+                    "name": "havingfun",
+                    "value": 2
+                  },
+                  {
+                    "name": "doingadventures",
+                    "value": 0
+                  }
+                ]
+              },
+              "what": {
+                "category": [
+                  {
+                    "name": "sport",
+                    "value": 1
+                  },
+                  {
+                    "name": "cities",
+                    "value": 1
+                  },
+                  {
+                    "name": "entertainment",
+                    "value": 1
+                  }
+                ]
+              },
+              "where": {
+                "label": "New York, New York, USA",
+                "centroid": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.9279075,40.8293315]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.8293315,
+                      "lng": -73.9279075,
+                      "zindex": 0
+                    }
+                  }
+                },
+                "geodata": {
+                  "type": "point",
+                  "geojson": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{\"label\":\"centroid\"},\"geometry\":{\"type\":\"Point\",\"coordinates\":[-73.9279075,40.8293315]},\"id\":\"point_type\"}]}",
+                  "value": {
+                    "point": {
+                      "lat": 40.8293315,
+                      "lng": -73.9279075,
+                      "zindex": 0,
+                      "alidaysGeographyId": "5669b80ae4b0be1e4c209c1c"
+                    }
+                  }
+                },
+                "alidaysGeography": [
+                  {
+                    "id": "5669b80ae4b0be1e4c209c1c",
+                    "macroarea": "Nord America",
+                    "macroareaCode": "56127b011bb47d32978fd6f6",
+                    "nazione": "Stati Uniti, Nord America",
+                    "nazioneCode": "56127b021bb47d32978fd710",
+                    "regione": "New York, Stati Uniti",
+                    "regioneCode": "56127b201bb47d32978fd828",
+                    "citta": "Bronx, New York, Stati Uniti",
+                    "cittaCode": "56127e091bb47d32978ff4e6",
+                    "location": "Stati Uniti, New York, Bronx"
+                  }
+                ]
+              },
+              "when": {
+                "recommended": {
+                  "month": [
+                    {
+                      "name": "3",
+                      "value": 1
+                    },
+                    {
+                      "name": "4",
+                      "value": 1
+                    },
+                    {
+                      "name": "5",
+                      "value": 1
+                    },
+                    {
+                      "name": "6",
+                      "value": 1
+                    },
+                    {
+                      "name": "7",
+                      "value": 1
+                    },
+                    {
+                      "name": "8",
+                      "value": 1
+                    }
+                  ]
+                },
+                "unrecommended": {
+                  "month": [
+                    {
+                      "name": "0",
+                      "value": 1
+                    },
+                    {
+                      "name": "1",
+                      "value": 1
+                    },
+                    {
+                      "name": "2",
+                      "value": 1
+                    },
+                    {
+                      "name": "9",
+                      "value": 1
+                    },
+                    {
+                      "name": "10",
+                      "value": 1
+                    },
+                    {
+                      "name": "11",
+                      "value": 1
+                    }
+                  ],
+                  "motivation": "Il campionato va da aprile a settembre"
+                },
+                "neutral": {
+                  "month": []
+                }
+              },
+              "who": {
+                "age": {
+                  "recommended": {
+                    "ageValue": []
+                  },
+                  "unrecommended": {
+                    "ageValue": []
+                  },
+                  "neutral": {
+                    "ageValue": [
+                      {
+                        "label": "0-5",
+                        "value": 1
+                      },
+                      {
+                        "label": "6-10",
+                        "value": 1
+                      },
+                      {
+                        "label": "11-15",
+                        "value": 1
+                      },
+                      {
+                        "label": "16-20",
+                        "value": 1
+                      },
+                      {
+                        "label": "21-30",
+                        "value": 1
+                      },
+                      {
+                        "label": "31-40",
+                        "value": 1
+                      },
+                      {
+                        "label": "41-50",
+                        "value": 1
+                      },
+                      {
+                        "label": "51-60",
+                        "value": 1
+                      },
+                      {
+                        "label": "61-70",
+                        "value": 1
+                      },
+                      {
+                        "label": "70-",
+                        "value": 1
+                      }
+                    ]
+                  }
+                },
+                "category": {
+                  "recommended": {
+                    "categoryValue": []
+                  },
+                  "unrecommended": {
+                    "categoryValue": []
+                  },
+                  "neutral": {
+                    "categoryValue": [
+                      {
+                        "label": "alone",
+                        "value": 1
+                      },
+                      {
+                        "label": "family",
+                        "value": 1
+                      },
+                      {
+                        "label": "friends",
+                        "value": 1
+                      },
+                      {
+                        "label": "partners",
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              },
+              "howLong": {
+                "value": "3-6"
+              },
+              "howMuch": {}
+            },
+            "images": [
+              {
+                "uri": "5469d8ace4b086b4d49589aa",
+                "shortDesc": "0"
+              },
+              {
+                "uri": "5469d8ade4b086b4d49589ab",
+                "shortDesc": "1"
+              }
+            ],
+            "author": {
+              "accountId": "monica.lacqua@alidays.it",
+              "role": "alidaysemployee"
+            },
+            "lastModifier": {},
+            "defaultImage": {
+              "uri": "5469d8ace4b086b4d49589aa",
+              "shortDesc": "0"
+            },
+            "geocodes": [
+              {
+                "level0": {
+                  "level": "level0",
+                  "name": "United States",
+                  "code": "US"
+                },
+                "level1": {
+                  "level": "level1",
+                  "name": "New York",
+                  "code": "NY"
+                },
+                "level2": {
+                  "level": "level2",
+                  "name": "Bronx County",
+                  "code": "Bronx County"
+                },
+                "address": {
+                  "level": "level4",
+                  "street": "East 161st Street",
+                  "number": "1",
+                  "zip": "10451",
+                  "extendedAddress": "1 East 161st Street, Bronx, NY 10451, USA"
+                }
+              }
+            ],
+            "howManyContents": 0,
+            "creativeWork": {
+              "autocompleteList": [],
+              "authorAutocompleteList": []
+            }
+          }
+        }
+      }
+    ]
+  }
+]

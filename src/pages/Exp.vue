@@ -58,32 +58,32 @@
                 <ul class="seeds">
                   <li>
                     <div class="relax" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[0].value === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|rlx:4"><i class="ico-relax"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-relax"></i></a>
                     </div>
                   </li>
                   <li>
                     <div class="landscapes" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[1].value  === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|lnd:4"><i class="ico-landscapes"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-landscapes"></i></a>
                     </div>
                   </li>
                   <li>
                     <div class="discovering" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[2].value  === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|bhv:4"><i class="ico-discovering"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-discovering"></i></a>
                     </div>
                   </li>
                   <li>
                     <div class="cultures" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[3].value  === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|clt:4"><i class="ico-cultures"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-cultures"></i></a>
                     </div>
                   </li>
                   <li>
                     <div class="fun" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[4].value  === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|fun:4"><i class="ico-fun"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-fun"></i></a>
                     </div>
                   </li>
                   <li>
                     <div class="adventures" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[0].value  === 0}">
-                      <a class="preventOnMobile" href="/explore?q=why|avt:4"><i class="ico-adventures"></i></a>
+                      <a class="preventOnMobile" href=""><i class="ico-adventures"></i></a>
                     </div>
                   </li>
                 </ul>
@@ -91,7 +91,7 @@
               <span class="ws-label">Temi</span>
               <div class="widget widget-what" data-widget-what="">
                 <ul class="what-list">
-                  <li><a class="preventOnMobile" href="/explore?q=what|landscapes" title="Paesaggi">Paesaggi</a></li>
+                  <li><a class="preventOnMobile" href="" title="Paesaggi">Paesaggi</a></li>
                 </ul>
               </div>
               <span class="ws-label">Mesi</span>
@@ -214,7 +214,7 @@ export default {
       experiencies: []
     }
   },
-  beforeMount () {
+  created () {
     for (var key in this.expID) {
       var id = this.expID[key]
       axios.get('https://fluidtravel.it/api/alidays/applications/fluidtravel/public/catalogs/experiences/'+id)

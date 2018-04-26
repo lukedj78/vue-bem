@@ -1,269 +1,22 @@
-<template>
-  <div>
-    <div class="btn" @click="printElem">Print</div>
-    <div id="toPrint" ref="toPrint">
-      <div v-for="(item, index) in experiencies" >
-        <div class="experience-detail exptype-experience" style="">
-          <div class="experience-preview">
-            <div class="image image-preview" :style='{ backgroundImage: "url(https://fluidtravel.it/media/" + item.data[0].value.experience.defaultImage.uri + "_m.jpeg)" }'></div>
-            <img class="image image-thumb" :src="'https://fluidtravel.it/media/'+item.data[0].value.experience.defaultImage.uri+'_m.jpeg'">
-            <div class="experience-location table-elm">
-              <div class="table-row">
-                <i class="ico-location table-cell"></i>
-                <div class="info-location table-cell">
-                  <span class="city">{{item.data[0].value.experience.ws.where.alidaysGeography[0].location}}</span>
-                  <span class="address">{{item.data[0].value.experience.geocodes[0].address.extendedAddress}}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="info">
-            <div class="experience-header">
-              <span class="type">Esperienza</span>
-              <a class="title">
-                {{item.data[0].value.experience.title}}
-              </a>
-              <div class="separator"></div>
-            </div>
-            <div class="experience-meta clearfix"></div>
-            <div id="descview">
-              <div class="descview">
-                <div class="nano">
-                  <div class="nano-content" tabindex="0" style="right: -15px;">
-                    <span class="subtitle">{{item.data[0].value.experience.shortDesc}}</span>
-                    <span class="desctext">
-                      {{item.data[0].value.experience.longDesc}}
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="values">
-            <div class="values-wrapper">
-              <span class="ws-label">Valori</span>
-              <div class="widget widget-why" data-widget-why="">
-                <ul class="seeds">
-                  <li>
-                    <div class="relax" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[0].value === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-relax"></i></a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="landscapes" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[1].value  === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-landscapes"></i></a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="discovering" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[2].value  === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-discovering"></i></a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="cultures" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[3].value  === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-cultures"></i></a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="fun" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[4].value  === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-fun"></i></a>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="adventures" :class="{'inactive-seed': item.data[0].value.experience.ws.why.category[0].value  === 0}">
-                      <a class="preventOnMobile" href=""><i class="ico-adventures"></i></a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <span class="ws-label">Temi</span>
-              <div class="widget widget-what" data-widget-what="">
-                <ul class="what-list">
-                  <li v-for="(category, index) in item.data[0].value.experience.ws.what.category">
-                    <a class="preventOnMobile" href="" title="category.name">{{category.name}}</a>
-                  </li>
-                </ul>
-              </div>
-              <span class="ws-label">Mesi</span>
-              <div class="widget widget-when" data-widget-when="">
-                <ul class="when-list">
-                  <li>
-                    <span class="lb">Gen</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Feb</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Mar</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Apr</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Mag</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Giu</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Lug</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Ago</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Set</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Ott</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Nov</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-
-                  <li>
-                    <span class="lb">Dic</span>
-                    <div class="when-rate ">
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <span class="ws-label">Tipologie Viaggiatori</span>
-              <div class="widget widget-who" data-widget-who="">
-                <ul class="who-list">
-                  <li>
-                    <div class="who-rate ">
-                      <i class="ico-alone"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="who-rate ">
-                      <i class="ico-partners"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="who-rate ">
-                      <i class="ico-family"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="who-rate ">
-                      <i class="ico-friends"></i>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import html2canvas from 'html2canvas'
-import axios from 'axios'
-
-export default {
-  data () {
-    return {
-      expID: ['546e170b7fdf87ae1df677e1','53bd16f1671029428184ca62','54bccc1e43d7b8734127d085','53bd16f7671029428184cd05','56c1fa67e4b035f76fe49024','5704e23fe4b0e6824314aa82','54afac87abdf8e3d30bd53f2','53bd16f8671029428184cd80','546e17557fdf87ae1df6786d','546e17617fdf87ae1df67885'],
-      experiencies: []
-    }
-  },
-  created () {
-    for (var key in this.expID) {
-      var id = this.expID[key]
-      axios.get('https://fluidtravel.it/api/alidays/applications/fluidtravel/public/catalogs/experiences/'+id)
-      .then((response) => {
-        this.experiencies.push(response.data)
-      })
-    }
-  },
-  methods: {
-    printElem () {
-        var w = 1024;
-        var h = 842;
-        var left = (screen.width / 2) - (w / 2);
-        var top = (screen.height / 2) - (h / 2);
-
-        var mywindow = window.open('', 'PRINT', 'height=' + h + ',width=' + w + ', top=' + top + ', left=' + left);
-
-        mywindow.document.write('<link rel="stylesheet" type="text/css" href="/static/print-exp.css">');
-        mywindow.document.write('<link rel="stylesheet" type="text/css" href="/static/fonts.css">');
-
-        mywindow.document.write('<html><head><title>Esperienze</title>');
-        mywindow.document.write('</head><body >');
-        mywindow.document.write(document.getElementById('toPrint').innerHTML);
-        mywindow.document.write('</body></html>');
-
-        mywindow.document.close(); // necessary for IE >= 10
-        mywindow.focus(); // necessary for IE >= 10*/
-
-        setTimeout(function () {
-            mywindow.print();
-            //mywindow.close();
-        }, 1000);
-
-        return true;
-    },
-    printPdf () {
-      console.log(this.$refs.toPrint)
-      html2canvas(this.$refs.toPrint).then(function(canvas) {
-        console.log(canvas)
-      });
-    }
-  }
-}
-</script>
-
-<style scoped>
 /** **/
+body {
+  font-family: Sans-Serif;
+  font-size: 67%;
+}
 .experience-detail .info {
-  width: 60%;
+  width: 67%;
   float: left;
-  padding: 15px 28px
+  padding: 10px;
 }
 
 .experience-detail .info .descview {
-  width: 100%;
-  font-size: 1em;
-  line-height: 1.5;
-  margin: 0;
-  float: right;
+  /* width: 100%; */
+  /* font-size: 1em; */
+  /* line-height: 1.5; */
+  /* margin: 0; */
+  /* float: right; */
+  /* height: 100%; */
+  text-align: justify;
 }
 
 .experience-detail .info .descview .subtitle {
@@ -273,34 +26,14 @@ export default {
 }
 
 .experience-detail .info .descview .desctext {
-  padding-bottom: 10px
-}
-
-.experience-detail .info .descview .nano {
-  height: 300px;
-  font-size: 14px;
-}
-
-.experience-detail .info .descview .nano .nano-pane {
-  background: #dddad5;
-  width: 7px!important;
-  opacity: .4;
-  filter: alpha(opacity=40)
-}
-
-.experience-detail .info .descview .nano .nano-slider {
-  background: #afa89d
-}
-
-.experience-detail .info .descview .nano .nano-content {
-  padding-right: 25px;
+  /* padding-bottom: 10px; */
+  /* height: 100%; */
   text-align: justify;
-  outline: none!important
 }
 
-.experience-detail .info .descview:hover .nano .nano-pane {
-  opacity: 1;
-  filter: alpha(opacity=100)
+
+.experience-detail .info .descview .nano  {
+  line-height: 18px;
 }
 
 .experience-detail .info .descview .title {
@@ -313,19 +46,20 @@ export default {
 }
 
 .experience-detail .values {
-  width: 20%;
-  float: left;
-  background-color: #fff
+  width: 27%;
+  margin-bottom: 20px;
+  float: right;
+  padding: 0 10px;
+  margin-top: 15px;
 }
 
 .experience-detail .values .values-wrapper {
-  position: relative;
-  padding: 22px 12px
 }
 
 .experience-detail .values .values-wrapper .widget {
   display: block;
-  margin: 0
+  margin: 0;
+  margin-top: 10px;
 }
 
 .experience-detail .values .values-wrapper .handlebar {
@@ -1641,20 +1375,20 @@ header#main .mainNav ul.menu [data-usersession] {
 }
 
 .nano {
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 100%;
-  overflow: hidden
+  /* height: 100%; */
+  overflow: hidden;
 }
 
 .nano>.nano-content {
-  position: absolute;
-  overflow: scroll;
-  overflow-x: hidden;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0
+  /* position: absolute; */
+  /* overflow: scroll; */
+  /* overflow-x: hidden; */
+  /* top: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* left: 0; */
 }
 
 .nano>.nano-content:focus {
@@ -4335,11 +4069,11 @@ ul.list-nested li .item .content:hover .icon>span {
 }
 
 .experience-detail {
-  height: 380px;
+  height: 50vh;
   background-color: #fff;
-  overflow: hidden;
-  position: relative;
-  margin: 20px 35px;
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* margin: 20px 0px; */
 }
 
 .experience-detail.no-images .media-tools-images,
@@ -4401,8 +4135,6 @@ ul.list-nested li .item .content:hover .icon>span {
 }
 
 .experience-detail>div {
-  height: 100%;
-  width: 100%
 }
 
 .experience-detail:last-child {
@@ -4416,11 +4148,11 @@ ul.list-nested li .item .content:hover .icon>span {
 }
 
 .experience-detail .experience-preview {
-  height: 100%;
-  width: 20%;
+  height: 30%;
+  width: 100%;
   position: relative;
-  float: left;
-  overflow: hidden
+  /* float: left; */
+  overflow: hidden;
 }
 
 .experience-detail .experience-preview .experience-order {
@@ -4439,7 +4171,7 @@ ul.list-nested li .item .content:hover .icon>span {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 .experience-detail .experience-preview .ico-edit {
@@ -4592,8 +4324,6 @@ ul.list-nested li .item .content:hover .icon>span {
 
 
 .experience-detail .experience-header {
-  position: relative;
-  width: 100%
 }
 
 .experience-detail .experience-header .type {
@@ -4661,57 +4391,16 @@ ul.list-nested li .item .content:hover .icon>span {
   line-height: 1.3
 }
 
-@media screen and (max-width:1400px) {
-  #favourites-list .experience-detail .info {
-    width: 43%
-  }
-  #detailFrame .experience-detail .info {
-    width: 45%
-  }
-}
-
-@media screen and (max-width:1200px) {
-  .experience-detail .info {
-    width: 394px;
-    padding: 15px
-  }
-  #favourites-list .experience-detail .info {
-    width: 34%;
-    padding: 15px 10px
-  }
-  #detailFrame .experience-detail .info {
-    width: 35%
-  }
-}
-
 @media screen and (max-width:989px) {
   .experience-detail .info {
-    width: 440px;
-    padding: 15px
-  }
-  #favourites-list .experience-detail .info {
-    width: 63%
-  }
-  #detailFrame .experience-detail .info {
-    width: 56%
-  }
-  .experience-detail .values {
-    position: absolute;
-    right: -148px;
-    border-left: 1px solid #eee;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease
   }
   .experience-detail .values .values-wrapper {
-    padding: 22px 36px;
+    padding: 22px 0px;
     transition: padding .3s ease;
     -webkit-transition: padding .3s ease;
     -moz-transition: padding .3s ease;
     -ms-transition: padding .3s ease;
-    -o-transition: padding .3s ease
+    -o-transition: padding .3s ease;
   }
   .experience-detail .values .values-wrapper .handlebar {
     visibility: visible
@@ -5462,7 +5151,7 @@ ul.list-nested li .item .content:hover .icon>span {
 .coolquiz .nl-dd ul li.nl-dd-checked:before,
 .coolquiz .nl-field-go:before,
 .coolquiz .nl-submit:before {
-  font-family: 'fluidtravel\';
+  font-family: 'fluidtravel';
   speak: none;
   font-style: normal;
   font-weight: 400;
@@ -6824,5 +6513,3 @@ footer {
 .unrecomwho {
   border: 1px solid red
 }
-
-</style>

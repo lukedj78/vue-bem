@@ -22,7 +22,7 @@ export default {
 /*-----------------------------
 Banner
 -----------------------------*/
-.banner{background: #fff; height:50%;margin-top:40px}
+.banner{background: #fff; height:50%;margin:40px 0}
 .banner__image{width:30%; float:left;height:100%;min-height: 290px;
   background-image: url("https://source.unsplash.com/category/nature/400x400");
   background-size: cover;

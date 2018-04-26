@@ -1,19 +1,21 @@
 <template>
   <div id="app">
     <Header/>
-    <router-view/>
+    <Main/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Header from '@/components/Header'
+import Main from '@/components/Main'
 import Footer from '@/components/Footer'
 
 export default {
   name: 'App',
   components: {
     Header,
+    Main,
     Footer
   }
 }
@@ -26,6 +28,17 @@ body{background: #eee;}
 /*-----------------------------
 general
 -----------------------------*/
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#app {
+  min-height:100%;
+  position:relative;
+}
 .animate{
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
